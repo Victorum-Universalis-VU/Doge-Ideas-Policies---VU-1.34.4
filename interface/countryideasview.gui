@@ -13,22 +13,18 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"
 		upsound = tab_ideas
 		
-		iconType =
-		{
+		iconType = {
 			name ="domesticpanel_bg"
 			spriteType = "GFX_country_ideas_view_bg"
 			position = {  x= -7 y = -10 }
 			Orientation = "UPPER_LEFT"
-
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="topGold"
 			spriteType = "GFX_country_ideas_view_topGold"
 			position = { x= -2 y = 78 }
 			Orientation = "UPPER_LEFT"
-
 		}
 		
 		guiButtonType = {
@@ -54,8 +50,7 @@ guiTypes = {
 		
 		### ------- Unique ideas -------	
 				
-		guiButtonType =
-		{
+		guiButtonType =	{
 			name ="unique_ideas_category"
 			spriteType = "GFX_shield_thin"
 			position = { x= 15 y = 130 }
@@ -74,8 +69,7 @@ guiTypes = {
 			format = left
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="unique_ideas_start_icon_1"
 			spriteType = "GFX_idea_empty"
 			position = { x = 297 y = 127 }
@@ -96,8 +90,7 @@ guiTypes = {
 			format = left
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="unique_ideas_start_icon_2"
 			spriteType = "GFX_idea_empty"
 			position = { x = 376 y = 127 }
@@ -118,14 +111,14 @@ guiTypes = {
 			format = left
 		}		
 		
-		iconType =
-		{
+		iconType = {
 			name ="unique_ideas_bonus_icon"
 			spriteType = "GFX_idea_empty"
 			position = { x = 452 y = 127 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
-		}	
+		}
+		
 		instantTextBoxType = {
 			name = "unique_ideas_bonus_desc"
 			position = { x = 475 y = 130 }
@@ -147,8 +140,7 @@ guiTypes = {
 				spacing = 1
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_unique_progress"
 			spriteType = "GFX_ideaView_unique_progressbar"
 			position = { x= 106 y = 221 }
@@ -156,8 +148,7 @@ guiTypes = {
 			hint_tag = "hint_nationalidea"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="progress_frame_army"
 			spriteType = "GFX_ideaView_unique_progress_frame_long"
 			position = { x = 93 y = 217 }
@@ -416,8 +407,7 @@ guiTypes = {
 				}
 			}			
 
-			iconType =
-			{
+			iconType = {
 				name ="close_gold"
 				spriteType = "GFX_close_gold2"
 				position = { x=961 y =6 }
@@ -448,8 +438,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_icon"
 			spriteType = "GFX_idea_empty"
 			position = { x= 0 y = 0 }
@@ -469,8 +458,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_icon"
 			spriteType = "GFX_idea_empty"
 			position = { x= -40 y = -38 }
@@ -491,31 +479,26 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_category_bg"
 			spriteType = "GFX_ideaView_entry_bg"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_category"
 			spriteType = "GFX_idea_empty"
 			position = { x= 0 y = 19 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
-		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_cost"
 			spriteType = "GFX_icon_powers_administrative"
 			position = { x= 3 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}				
-				
 
 		instantTextBoxType = {
 			name = "ideas_idea_title"
@@ -529,8 +512,7 @@ guiTypes = {
 			format = left
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_bonus_icon"
 			spriteType = "GFX_ideas_bonus_strip"
 			position = { x = 225 y = 3 }
@@ -538,8 +520,7 @@ guiTypes = {
 
 		}	
 		
-		guiButtonType =
-		{
+		guiButtonType = {
 			name ="abandon_idea_button"
 			quadTextureSprite= "GFX_abandon_idea"
 			position = { x= 203 y = 5 }
@@ -556,16 +537,14 @@ guiTypes = {
 				spacing = 2
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_progress"
 			spriteType = "GFX_ideaView_progressbar"
 			position = { x= 66 y = 62 }
 			Orientation = "UPPER_LEFT"
 		}	
 
-		iconType =
-		{
+		iconType = {
 			name ="progress_frame_army"
 			spriteType = "GFX_ideaView_progress_frame_long"
 			position = { x = 56 y = 58 }
@@ -581,32 +560,27 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_category_bg"
 			spriteType = "GFX_nativeView_entry_bg"
 			position = { x= 0 y = 0 }
 			Orientation = "UPPER_LEFT"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_category"
 			spriteType = "GFX_idea_empty"
 			position = { x= 3 y = 24 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
-		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_cost"
 			spriteType = "GFX_icon_powers_administrative"
 			position = { x= 3 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}				
 				
-
 		instantTextBoxType = {
 			name = "ideas_idea_title"
 			position = { x = 30 y = 8 }
@@ -619,8 +593,7 @@ guiTypes = {
 			format = left
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_bonus_icon"
 			spriteType = "GFX_ideas_bonus_strip"
 			position = { x = 170 y = 3 }
@@ -637,16 +610,14 @@ guiTypes = {
 				spacing = 2
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_progress"
 			spriteType = "GFX_ideaView_small_progressbar"
 			position = { x= 69 y = 73 }
 			Orientation = "UPPER_LEFT"
 		}	
 
-		iconType =
-		{
+		iconType = {
 			name ="progress_frame_army"
 			spriteType = "GFX_ideaView_progress_frame_short"
 			position = { x = 64 y = 70 }
@@ -665,8 +636,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_icon"
 			spriteType = "GFX_idea_empty"
 			position = { x= 4 y = -25 }
@@ -675,24 +645,21 @@ guiTypes = {
 			hint_tag = "hint_ideas"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="idea_icon_can_unlock"
 			spriteType = "GFX_idea_view_nextunlock"
 			position = { x= 2 y = -30 }
 			Orientation = "UPPER_LEFT"
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="idea_icon_cannot_unlock"
 			spriteType = "GFX_idea_view_cannotunlock"
 			position = { x= 2 y = -30 }
 			Orientation = "UPPER_LEFT"
 		}
 		
-		guiButtonType =
-		{
+		guiButtonType = {
 			name ="idea_button"
 			quadTextureSprite= "GFX_idea_empty"
 			position = { x= 4 y = -25 }
@@ -714,10 +681,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 		
-		
-		
-		guiButtonType =
-		{
+		guiButtonType = {
 			name ="unlock"
 			quadTextureSprite= "GFX_ideaView_free_slot_button"
 			position = { x= 0 y = 0 }
@@ -728,8 +692,7 @@ guiTypes = {
 			hint_tag = "hint_ideagroup"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="available_idea_glow"
 			spriteType = "GFX_available_idea_glow"
 			position = { x= -2 y = -3 }
@@ -762,8 +725,7 @@ guiTypes = {
 		dontRender = ""
 		horizontalBorder = ""
 		
-		guiButtonType =
-		{
+		guiButtonType = {
 			name ="ideagroup_background"
 			quadTextureSprite= "GFX_ideas_view_unlockideabg"
 			position = { x= 0 y = 0 }
@@ -771,8 +733,7 @@ guiTypes = {
 			clicksound = click #DOESNT WORK
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_category"
 			spriteType = "GFX_idea_empty"
 			position = { x= 9 y = 11 }
@@ -780,8 +741,7 @@ guiTypes = {
 
 		}		
 		
-		iconType =
-		{
+		iconType = {
 			name ="ideas_cost"
 			spriteType = "GFX_icon_powers_administrative"
 			position = { x= 75 y = 4 }
@@ -800,8 +760,7 @@ guiTypes = {
 			format = centre
 		}	
 
-		iconType =
-		{
+		iconType = {
 			name ="ideas_bonus_icon"
 			spriteType = "GFX_ideas_bonus_strip"
 			position = { x = 278 y = 3 }

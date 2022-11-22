@@ -33,7 +33,7 @@ technology = { #Advanced Tribes
 	expects_institution = {
 		feudalism = 0.25
 	}
-	
+	allowed_idea_groups = 1
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
 }
@@ -59,7 +59,7 @@ technology = { #Medieval Administration
 	expects_institution = {
 		feudalism = 0.5
 	}
-	allowed_idea_groups = 1
+	allowed_idea_groups = 2
 	production_efficiency	=	0.02
 	may_support_rebels = yes
 	# abyssian007 edit make the road available at a tech level  
@@ -82,7 +82,7 @@ technology = { #National Ideas
 		feudalism = 0.5
 		renaissance = 0.15
 	}
-	allowed_idea_groups = 2
+	allowed_idea_groups = 3
 	production_efficiency	 =	0.02
 }
 
@@ -107,7 +107,7 @@ technology = { #Renaissance Thought
 		renaissance = 0.5
 	}
 	#Noble Republic
-	allowed_idea_groups = 3		
+	allowed_idea_groups = 4	
 	#Sculpture Workshop TGE Manufactory
 	sculpture_workshop = yes
 }
@@ -134,7 +134,7 @@ technology = { #The Scythe
 	}
 	#The Scythe
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 4
+	allowed_idea_groups = 5
 }
 
 technology = { #Modern Theocracy
@@ -160,7 +160,7 @@ technology = { #Textile Manufactory
 	}
 	#Textile Manufactory
 	textile = yes  
-	allowed_idea_groups = 5
+	allowed_idea_groups = 6
 }
 
 technology = { #Early Modern Administration
@@ -190,7 +190,7 @@ technology = { #Improved Drainage
 	}
 	#Improved Drainage
 	production_efficiency 	=	0.02
-	allowed_idea_groups = 6
+	allowed_idea_groups = 7
 }
 
 technology = { #Scientific Experimentation
@@ -203,7 +203,6 @@ technology = { #Scientific Experimentation
 		printing_press = 0.3
 	}
 	plantations = yes
-	allowed_idea_groups	= 4
 	#Leather Workshop TGE Manufactory
 	leather_workshop = yes
 }
@@ -219,7 +218,7 @@ technology = { #Military Administration
 	}
 	may_force_march = yes
 	soldier_households = yes
-	allowed_idea_groups = 7
+	allowed_idea_groups = 8
 }
 
 technology = { #Metallurgy
@@ -248,7 +247,7 @@ technology = { #University
 	governing_capacity = 750	#Dev doubled but cap gains not?
 	administrative_efficiency = 0.1
 	development_cost_modifier = 0.1
-	allowed_idea_groups = 8
+	allowed_idea_groups = 9
 	#University Building
 	university = yes
 }
@@ -277,7 +276,7 @@ technology = { #Cathedral
 	}
 	#Cathedral Building
 	cathedral = yes
-	allowed_idea_groups = 9
+	allowed_idea_groups = 10
 }
 
 technology = { #Absolute Rulership
@@ -307,7 +306,7 @@ technology = { #Land Clearance
 	}
 	#Land Clearance
 	production_efficiency 	=	0.03
-	allowed_idea_groups = 10
+	allowed_idea_groups = 11
 }
 
 technology = { #The Constitution
@@ -340,7 +339,7 @@ technology = { #Measuring the World
 	}
 	administrative_efficiency = 0.15
 	development_cost_modifier = 0.15
-	allowed_idea_groups = 11
+	allowed_idea_groups = 12
 }
 
 technology = { #Bonds and Tontines
@@ -377,7 +376,7 @@ technology = { #Improved Production
 	}
 	#Improved Farm Animals
 	production_efficiency 	=	0.035
-	allowed_idea_groups = 12
+	allowed_idea_groups = 13
 	furnace = yes
 }
 
@@ -408,7 +407,7 @@ technology = { #Modern Bureaucracy
 		manufactories = 0.5
 		enlightenment = 0.5
 	}
-	allowed_idea_groups = 13
+	allowed_idea_groups = 14
 }
 
 technology = { #Rotherham Plough
@@ -445,7 +444,7 @@ technology = { #Rights of Man
 		enlightenment = 1
 		industrialization = 0.5
 	}
-	allowed_idea_groups = 14
+	allowed_idea_groups = 15
 	#Watt Steam Engine
 	production_efficiency 	=	0.045
 	#Grand Cathedral Building
@@ -485,6 +484,7 @@ technology = { #Revolutionary Ideals
 		industrialization = 1
 	}
 	#Rights of Man
+	allowed_idea_groups	= 16
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }
@@ -526,6 +526,7 @@ technology = {
 		imperialism = 1
 	}
 	#Four field rotation
+	allowed_idea_groups	= 17
 	production_efficiency 	=	0.055
 }
 
@@ -566,7 +567,7 @@ technology = {
 	#Secularism
 	administrative_efficiency = 0.25
 	governing_capacity = 2000	#Dev doubled but cap gains not?
-	allowed_idea_groups = 15
+	allowed_idea_groups = 18
 }
 
 technology = {
@@ -606,6 +607,7 @@ technology = {
 		nationalism_institution = 0.5
 	}
 	#Repleceable Parts
+	allowed_idea_groups = 19
 	production_efficiency 	=	0.065
 }
 
@@ -626,7 +628,6 @@ technology = {
 	}
 	#Assembly Line
 	production_efficiency 	=	0.07
-	allowed_idea_groups = 16
 }
 
 technology = {
@@ -645,6 +646,7 @@ technology = {
 		nationalism_institution = 1
 	}
 	#Progressivism
+	allowed_idea_groups = 20
 	governing_capacity = 2500	#Dev doubled but cap gains not?
 }
 
