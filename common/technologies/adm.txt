@@ -587,8 +587,8 @@ technology = {
 	}
 	#Universal Suffrage
 	governing_capacity = 2250	#Dev doubled but cap gains not?
-	parliamentary_monarchy = yes
-	parliamentary_democracy = yes
+	#parliamentary_monarchy = yes
+	#parliamentary_democracy = yes
 }
 
 technology = {
