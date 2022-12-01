@@ -157,6 +157,7 @@ establish_puppet_state = {
 							has_reform = constitutional_republic
 							has_reform = bureaucratic_despotism
 							has_reform = english_monarchy
+							has_reform = scottish_monarchy
 							has_reform = trading_city
 							has_reform = dutch_republic
 							has_reform = american_republic
@@ -171,6 +172,7 @@ establish_puppet_state = {
 							NOT = { has_reform = constitutional_republic }
 							NOT = { has_reform = bureaucratic_despotism }
 							NOT = { has_reform = english_monarchy }
+							NOT = { has_reform = scottish_monarchy }
 							NOT = { has_reform = trading_city }
 							NOT = { has_reform = dutch_republic }
 							NOT = { has_reform = american_republic }
@@ -1087,6 +1089,7 @@ establish_puppet_state = {
 			has_reform = constitutional_republic
 			has_reform = bureaucratic_despotism
 			has_reform = english_monarchy
+			has_reform = scottish_monarchy
 			has_reform = trading_city
 			has_reform = dutch_republic
 			has_reform = american_republic
@@ -1182,6 +1185,7 @@ cancel_puppet_state = {
 				has_reform = constitutional_republic
 				has_reform = bureaucratic_despotism
 				has_reform = english_monarchy
+				has_reform = scottish_monarchy
 				has_reform = trading_city
 				has_reform = dutch_republic
 				has_reform = american_republic
