@@ -8,6 +8,8 @@ revolutionary_colors = { 5  13  0 }
 
 historical_idea_groups = {}
 
+preferred_religion = protestant
+
 historical_units = {
 	western_medieval_infantry
 	chevauchee
