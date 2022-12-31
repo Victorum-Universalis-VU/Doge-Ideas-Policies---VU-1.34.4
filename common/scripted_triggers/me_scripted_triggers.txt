@@ -656,6 +656,7 @@ MSA_is_in_malaya = {
 		area = malaya_area
 		area = kedah_area
 		area = indonesian_islands_area
+		area = riau_islands_area
 	}
 }
 
@@ -691,6 +692,10 @@ MSA_malaya_trigger = {
 		OR = {
 			region = malaya_region
 			region = indonesia_region
+			region = riau_islands_region
+			region = nusa_tenggara_region
+			region = borneo_region
+			region = celebes_region
 		}
 		value = 60
 	}
@@ -700,6 +705,10 @@ MSA_malaya_pth = {
 	OR = {
 		region = malaya_region
 		region = indonesia_region
+		region = riau_islands_region
+		region = nusa_tenggara_region
+		region = borneo_region
+		region = celebes_region
 	}
 	NOT = { country_or_non_sovereign_subject_holds = ROOT }
 }
@@ -709,6 +718,10 @@ MSA_affected_by_spread_of_islam = {
 		region = malaya_region
 		region = indonesia_region
 		region = moluccas_region
+		region = riau_islands_region
+		region = nusa_tenggara_region
+		region = borneo_region
+		region = celebes_region
 	}
 	owner = {
 		culture_group = malay

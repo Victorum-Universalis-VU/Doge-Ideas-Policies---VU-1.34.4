@@ -6,20 +6,7 @@ color = { 192  25  13 }
 
 revolutionary_colors = { 4  8  4 }
 
-historical_score = 400
-
 historical_idea_groups = {}
-
-historical_idea_groups = {
-	religious_ideas
-	aristocracy_ideas
-	trade_ideas
-	economic_ideas
-	diplomatic_ideas
-	innovativeness_ideas
-	offensive_ideas
-	spy_ideas
-}
 
 historical_units = {
 	western_medieval_infantry
