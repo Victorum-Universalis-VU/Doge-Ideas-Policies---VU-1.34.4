@@ -13401,8 +13401,8 @@ country_event = {
 				is_subject_of_type = crown_colony
 				is_subject_of_type = private_enterprise
 				is_subject_of_type = self_governing_colony
-				is_subject_of_type = self_governing_dominion_vu
-				is_subject_of_type = self_governing_super_dominion_vu
+				#is_subject_of_type = self_governing_dominion_vu
+				#is_subject_of_type = self_governing_super_dominion_vu
 			}
 		}
 	}
