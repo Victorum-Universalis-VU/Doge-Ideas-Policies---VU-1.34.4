@@ -502,3 +502,6 @@
  iv_building_16_6:0 "Underground Supply Depot Defensiveness Malus"
  iv_idea_1:0 "Metropolis Planning"
  iv_idea_1_desc:0 "Planning really big cities requires experience and can be very costly. However we are experienced and won't make beginner mistakes."
+
+#Custom tooltip added by Altan
+has_full_religious_ideas_tt: "§Y[Root.GetName]§! has completed an Idea Group related to §YReligion§!"
